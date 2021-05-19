@@ -1,5 +1,5 @@
 # JRE base
-FROM arm64v8/openjdk:11.0-jre-slim
+FROM arm64v8/openjdk:16-slim
 
 # Environment variables
 ENV MC_VERSION="latest" \
